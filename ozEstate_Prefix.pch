@@ -1,0 +1,23 @@
+//
+// Prefix header for all source files of the 'ozEstate' target in the 'ozEstate' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import "FMDatabase.h"
+	#import "FMDatabaseAdditions.h"
+	#import "Define.h"
+	#import "ozEstateAppDelegate.h"
+	#import "ApplicationCategory.h"
+#endif
+
+//Right-click on your target and click Get Info. Select the Build tab. Make sure Configuration is set to Debug. Add -DDEBUG to the Other C Flags of your target.
+//
+//And that’s about it. When you want to log only in debug builds use DLog(). In release builds DLog() will be compiled as an empty comment. Otherwise use ALog() for logging in both debug and release builds. (A as in always.)
+#ifdef DEBUG
+#    define DLog(...) NSLog(__VA_ARGS__)
+#else
+#    define DLog(...) /* */
+#endif
+#define ALog(...) NSLog(__VA_ARGS__)

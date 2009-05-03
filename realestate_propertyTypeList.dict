@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Show All</key>
+	<string></string>
+	<key>Houses</key>
+	<string>Duplex/Semi-Detached,House,Terrace,Villa,Warehouse</string>
+	<key>Townhouses</key>
+	<string>Townhouse</string>
+	<key>Apartments</key>
+	<string>Alpine,Apartment,Flat,Retirement Living,Serviced Apartment,Studio,Unit</string>
+	<key>Acreage</key>
+	<string>Acreage/Semi-Rural</string>
+	<key>Block Units</key>
+	<string>Block of Units</string>
+</dict>
+</plist>
