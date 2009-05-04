@@ -48,6 +48,9 @@
 		return NO;
 	}
 	
+	if(sqlite3_exec(db, "PRAGMA CACHE_SIZE=50", NULL, NULL, NULL) != SQLITE_OK)
+		DLog(@"Couldn't set cache size: %@", [self lastErrorMessage]);
+	
 	return YES;
 }
 
