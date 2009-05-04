@@ -32,7 +32,6 @@
 		3A2A10460F45553A0006E419 /* SearchParseMoreInfosAgencyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A10450F45553A0006E419 /* SearchParseMoreInfosAgencyOperation.m */; };
 		3A2A10B00F4565BE0006E419 /* AddCreatedAtAndUpdatedAtToAgenciesUserTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A10AF0F4565BE0006E419 /* AddCreatedAtAndUpdatedAtToAgenciesUserTable.m */; };
 		3A2A11740F4575840006E419 /* AddPostcodeToAgenciesUserTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A11730F4575840006E419 /* AddPostcodeToAgenciesUserTable.m */; };
-		3A2A13540F45958F0006E419 /* ContactAgentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A13530F45958F0006E419 /* ContactAgentOperation.m */; };
 		3A2A13B20F459F110006E419 /* SearchParseMoreImagesOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2A13B10F459F110006E419 /* SearchParseMoreImagesOperation.m */; };
 		3A2A16AD0F4648180006E419 /* medium_photo_frame_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A16AC0F4648180006E419 /* medium_photo_frame_empty.png */; };
 		3A2A19030F468B4F0006E419 /* follow_link_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2A19020F468B4F0006E419 /* follow_link_arrow.png */; };
@@ -104,6 +103,7 @@
 		3A6AF16C0FAD560B0076CCA8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AF16B0FAD560B0076CCA8 /* Reachability.m */; };
 		3A6AF1910FAD56830076CCA8 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 3A6AF1900FAD56830076CCA8 /* README.markdown */; };
 		3A6AF1950FAD57880076CCA8 /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = 3A6AF1940FAD57880076CCA8 /* NOTICE */; };
+		3A6AF23E0FAE858F0076CCA8 /* ContactAgentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AF23D0FAE858F0076CCA8 /* ContactAgentOperation.m */; };
 		3A7E60CA0F3C6A8C009D60E0 /* gps_button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A7E60C90F3C6A8C009D60E0 /* gps_button_selected.png */; };
 		3A7E61030F3C6F3E009D60E0 /* MyLocationGetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E61020F3C6F3E009D60E0 /* MyLocationGetter.m */; };
 		3A7E610C0F3C70B0009D60E0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A7E610B0F3C70B0009D60E0 /* CoreLocation.framework */; };
@@ -238,8 +238,6 @@
 		3A2A10AF0F4565BE0006E419 /* AddCreatedAtAndUpdatedAtToAgenciesUserTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCreatedAtAndUpdatedAtToAgenciesUserTable.m; sourceTree = "<group>"; };
 		3A2A11720F4575840006E419 /* AddPostcodeToAgenciesUserTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostcodeToAgenciesUserTable.h; sourceTree = "<group>"; };
 		3A2A11730F4575840006E419 /* AddPostcodeToAgenciesUserTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostcodeToAgenciesUserTable.m; sourceTree = "<group>"; };
-		3A2A13520F45958F0006E419 /* ContactAgentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactAgentOperation.h; path = ../AusEstate/ContactAgentOperation.h; sourceTree = SOURCE_ROOT; };
-		3A2A13530F45958F0006E419 /* ContactAgentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactAgentOperation.m; path = ../AusEstate/ContactAgentOperation.m; sourceTree = SOURCE_ROOT; };
 		3A2A13B00F459F110006E419 /* SearchParseMoreImagesOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchParseMoreImagesOperation.h; sourceTree = "<group>"; };
 		3A2A13B10F459F110006E419 /* SearchParseMoreImagesOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchParseMoreImagesOperation.m; sourceTree = "<group>"; };
 		3A2A16AC0F4648180006E419 /* medium_photo_frame_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medium_photo_frame_empty.png; sourceTree = "<group>"; };
@@ -348,6 +346,8 @@
 		3A6AF16B0FAD560B0076CCA8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		3A6AF1900FAD56830076CCA8 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 		3A6AF1940FAD57880076CCA8 /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE; sourceTree = "<group>"; };
+		3A6AF23C0FAE858F0076CCA8 /* ContactAgentOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactAgentOperation.h; sourceTree = "<group>"; };
+		3A6AF23D0FAE858F0076CCA8 /* ContactAgentOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactAgentOperation.m; sourceTree = "<group>"; };
 		3A7E60C90F3C6A8C009D60E0 /* gps_button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gps_button_selected.png; sourceTree = "<group>"; };
 		3A7E61010F3C6F3E009D60E0 /* MyLocationGetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocationGetter.h; sourceTree = "<group>"; };
 		3A7E61020F3C6F3E009D60E0 /* MyLocationGetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocationGetter.m; sourceTree = "<group>"; };
@@ -773,8 +773,8 @@
 				3A2A10450F45553A0006E419 /* SearchParseMoreInfosAgencyOperation.m */,
 				3A2A13B00F459F110006E419 /* SearchParseMoreImagesOperation.h */,
 				3A2A13B10F459F110006E419 /* SearchParseMoreImagesOperation.m */,
-				3A2A13520F45958F0006E419 /* ContactAgentOperation.h */,
-				3A2A13530F45958F0006E419 /* ContactAgentOperation.m */,
+				3A6AF23C0FAE858F0076CCA8 /* ContactAgentOperation.h */,
+				3A6AF23D0FAE858F0076CCA8 /* ContactAgentOperation.m */,
 				3A35D9F90F4B96F2005BA6CE /* GoogleMapApiCoordinatesOperation.h */,
 				3A35D9FA0F4B96F2005BA6CE /* GoogleMapApiCoordinatesOperation.m */,
 			);
@@ -1261,7 +1261,6 @@
 				3A2A10460F45553A0006E419 /* SearchParseMoreInfosAgencyOperation.m in Sources */,
 				3A2A10B00F4565BE0006E419 /* AddCreatedAtAndUpdatedAtToAgenciesUserTable.m in Sources */,
 				3A2A11740F4575840006E419 /* AddPostcodeToAgenciesUserTable.m in Sources */,
-				3A2A13540F45958F0006E419 /* ContactAgentOperation.m in Sources */,
 				3A2A13B20F459F110006E419 /* SearchParseMoreImagesOperation.m in Sources */,
 				3A2A19220F46A0410006E419 /* GPSRadiusController.m in Sources */,
 				3A2A19CE0F46A30E0006E419 /* UserDetails.m in Sources */,
@@ -1284,6 +1283,7 @@
 				3A6AF0080FAD495D0076CCA8 /* NSString+SBJSON.m in Sources */,
 				3A6AF0090FAD495D0076CCA8 /* SBJSON.m in Sources */,
 				3A6AF16C0FAD560B0076CCA8 /* Reachability.m in Sources */,
+				3A6AF23E0FAE858F0076CCA8 /* ContactAgentOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
