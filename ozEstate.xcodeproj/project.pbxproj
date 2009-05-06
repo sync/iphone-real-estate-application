@@ -372,10 +372,6 @@
 		3A80F39C0F63A8BF0006FA1A /* StatesSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesSearchController.m; sourceTree = "<group>"; };
 		3A80F3A00F63A96D0006FA1A /* StatesSearchController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatesSearchController.xib; sourceTree = "<group>"; };
 		3A80F5080F63C99E0006FA1A /* appdatabase.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = appdatabase.sqlite; sourceTree = "<group>"; };
-		3A86E32A0F4B0B1000C20DFD /* tidyenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidyenum.h; sourceTree = "<group>"; };
-		3A86E32B0F4B0B1000C20DFD /* tidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidy.h; sourceTree = "<group>"; };
-		3A86E32C0F4B0B1000C20DFD /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
-		3A86E32D0F4B0B1000C20DFD /* buffio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffio.h; sourceTree = "<group>"; };
 		3A9DAF480F421F3900438E09 /* AddSearchTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSearchTable.h; sourceTree = "<group>"; };
 		3A9DAF490F421F3900438E09 /* AddSearchTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSearchTable.m; sourceTree = "<group>"; };
 		3A9DB2BC0F42604D00438E09 /* realestate_propertyTypeList.dict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = realestate_propertyTypeList.dict; sourceTree = "<group>"; };
@@ -407,6 +403,10 @@
 		3A9DB9830F43BEEA00438E09 /* ImageFetchingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageFetchingOperation.m; sourceTree = "<group>"; };
 		3AA4DFF30F47B26300B2F3B0 /* loading_image_frame_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading_image_frame_selected.png; sourceTree = "<group>"; };
 		3AA4E1960F481E8300B2F3B0 /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
+		3AB471260FB13E7C00955526 /* buffio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffio.h; sourceTree = "<group>"; };
+		3AB471270FB13E7C00955526 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		3AB471280FB13E7C00955526 /* tidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidy.h; sourceTree = "<group>"; };
+		3AB471290FB13E7C00955526 /* tidyenum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tidyenum.h; sourceTree = "<group>"; };
 		3AB631E30F39A66E0069C8C6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		3AB631E40F39A66E0069C8C6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		3AB631E50F39A66E0069C8C6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
@@ -520,8 +520,8 @@
 				3ADEE1520F3C68D100E2C18B /* Custom UI */,
 				3A2A1E3E0F4708980006E419 /* Reachability */,
 				3A16636E0F4A467900A7DD44 /* RegexKitLite */,
-				3AA4E0810F480A3100B2F3B0 /* tidy */,
 				3A35DA060F4B989B005BA6CE /* JSON */,
+				3AB471250FB13E7C00955526 /* tidy */,
 				3A9DB2ED0F42680E00438E09 /* Utilities */,
 				3AB631E90F39A66E0069C8C6 /* Fmdb Migration Manager */,
 				3AB631E20F39A66E0069C8C6 /* FMDB */,
@@ -799,17 +799,16 @@
 			name = Image;
 			sourceTree = "<group>";
 		};
-		3AA4E0810F480A3100B2F3B0 /* tidy */ = {
+		3AB471250FB13E7C00955526 /* tidy */ = {
 			isa = PBXGroup;
 			children = (
-				3A86E32A0F4B0B1000C20DFD /* tidyenum.h */,
-				3A86E32B0F4B0B1000C20DFD /* tidy.h */,
-				3A86E32C0F4B0B1000C20DFD /* platform.h */,
-				3A86E32D0F4B0B1000C20DFD /* buffio.h */,
+				3AB471260FB13E7C00955526 /* buffio.h */,
+				3AB471270FB13E7C00955526 /* platform.h */,
+				3AB471280FB13E7C00955526 /* tidy.h */,
+				3AB471290FB13E7C00955526 /* tidyenum.h */,
 			);
-			name = tidy;
-			path = ../AusEstate/tidy;
-			sourceTree = SOURCE_ROOT;
+			path = tidy;
+			sourceTree = "<group>";
 		};
 		3AB631E20F39A66E0069C8C6 /* FMDB */ = {
 			isa = PBXGroup;
