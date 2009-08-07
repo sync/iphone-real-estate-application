@@ -288,10 +288,10 @@
 	if ([[sender valueForKey:@"fetchAndParseSuccessful"]boolValue]) {
 		NSData *responseData = 	[sender valueForKey:@"image"];
 		UIImage *thumbnail = [UIImage imageWithData:responseData];
-		if (thumbnail && !CGSizeEqualToSize(thumbnail.size,CGSizeZero)) {
-			thumbnail = [thumbnail _imageScaledToSize:CGSizeMake(71.0,61.0) interpolationQuality:0.5];
-			responseData =  UIImageJPEGRepresentation(thumbnail, 0.5);
-		}
+//		if (thumbnail && !CGSizeEqualToSize(thumbnail.size,CGSizeZero)) {
+//			thumbnail = [thumbnail _imageScaledToSize:CGSizeMake(71.0,61.0) interpolationQuality:0.5];
+//			responseData =  UIImageJPEGRepresentation(thumbnail, 0.5);
+//		}
 		[self.appDelegate.userdb executeUpdate:[NSString stringWithFormat:@"UPDATE images SET %@ = ? where id = ?", [sender valueForKey:@"rowName"]], responseData, [sender valueForKey:@"rowId"]];
 		id cellView = [sender valueForKey:@"cellView"];
 		if (cellView) {

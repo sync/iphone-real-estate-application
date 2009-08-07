@@ -17,7 +17,6 @@
 
 @implementation PropertiesController
 
-@synthesize appDelegate=_appDelegate;
 @synthesize state=_state;
 
 /*

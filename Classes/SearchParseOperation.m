@@ -131,7 +131,7 @@
 				//[anXMLParser abortParsing];
 			}
 		} else if ([attributeDict objectForKey:@"id"]) {
-			if ([[attributeDict objectForKey:@"id"]isEqualToString:@"searchResultsTabs"]) {
+			if ([[attributeDict objectForKey:@"id"]isEqualToString:@"searchResults"]) {
 				canStartParsing = TRUE;
 			}
 		}

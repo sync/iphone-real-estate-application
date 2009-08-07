@@ -53,7 +53,6 @@
 @implementation ozEstateAppDelegate
 
 @synthesize window=_window;
-@synthesize tabBarController;
 @synthesize userdb=_userdb;
 @synthesize locationGetter=_locationGetter;
 @synthesize loadingController=_loadingController;
